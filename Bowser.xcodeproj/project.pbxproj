@@ -13,6 +13,7 @@
 		E4246C941AE120E4007A8157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4246C931AE120E4007A8157 /* Images.xcassets */; };
 		E4246CA31AE120E4007A8157 /* BowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4246CA21AE120E4007A8157 /* BowserTests.m */; };
 		E4246CAD1AE1C6A2007A8157 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4246CAC1AE1C6A2007A8157 /* Default-568h@2x.png */; };
+		E4E07B401AE32D6000E3E13A /* AwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E07B3F1AE32D6000E3E13A /* AwesomeFloatingToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		E4246CA11AE120E4007A8157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4246CA21AE120E4007A8157 /* BowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowserTests.m; sourceTree = "<group>"; };
 		E4246CAC1AE1C6A2007A8157 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E4E07B3E1AE32D6000E3E13A /* AwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeFloatingToolbar.h; sourceTree = "<group>"; };
+		E4E07B3F1AE32D6000E3E13A /* AwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeFloatingToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				E4246C8B1AE120E4007A8157 /* AppDelegate.m */,
 				E4246C8D1AE120E4007A8157 /* ViewController.h */,
 				E4246C8E1AE120E4007A8157 /* ViewController.m */,
+				E4E07B3E1AE32D6000E3E13A /* AwesomeFloatingToolbar.h */,
+				E4E07B3F1AE32D6000E3E13A /* AwesomeFloatingToolbar.m */,
 				E4246C931AE120E4007A8157 /* Images.xcassets */,
 				E4246C861AE120E4007A8157 /* Supporting Files */,
 			);
@@ -218,6 +223,7 @@
 				E4246C8F1AE120E4007A8157 /* ViewController.m in Sources */,
 				E4246C8C1AE120E4007A8157 /* AppDelegate.m in Sources */,
 				E4246C891AE120E4007A8157 /* main.m in Sources */,
+				E4E07B401AE32D6000E3E13A /* AwesomeFloatingToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +397,7 @@
 				E4246CA81AE120E4007A8157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4246CA91AE120E4007A8157 /* Build configuration list for PBXNativeTarget "BowserTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +406,7 @@
 				E4246CAB1AE120E4007A8157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
